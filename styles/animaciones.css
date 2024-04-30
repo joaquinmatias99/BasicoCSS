@@ -1,0 +1,49 @@
+h1
+{
+    text-align: center;    
+}
+h2{
+    margin-left: 50px;
+}
+div{
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    position: relative;
+    border: 2px solid black;
+}
+@keyframes movimiento
+{
+    from{
+        left: 0;
+        background-color: orange;
+    }
+    to
+    {
+        left:300px;
+        background-color: rgb(124, 19, 151);
+    }
+}
+
+.cajita-Linear {
+    animation:movimiento 2s ease infinite alternate;
+}
+
+.cajita-Ease {
+    animation:movimiento 2s ease infinite alternate;
+}
+
+.cajita-Ease-In {
+    animation:movimiento 2s ease-in infinite alternate;
+}
+
+.cajita-Ease-Out {
+    animation:movimiento 2s ease-out infinite alternate;
+}
+
+.cajita-Ease-In-Out {
+    animation:movimiento 2s ease-in-out infinite alternate;
+}

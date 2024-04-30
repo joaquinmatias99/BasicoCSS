@@ -1,0 +1,114 @@
+h1,h2,h4{
+    text-align: center;
+}
+
+
+.grid-container3
+{
+    background-color: orange;
+    display:grid;
+    grid-template-columns: auto auto auto;    
+    padding: 25px;
+    justify-content: space-evenly;
+}
+.grid-container3>div
+{
+    background-color: azure;    
+    margin:15px;
+    padding:15px;
+}
+.grid-container4
+{
+    background-color: orange;
+    display:grid;
+    grid-template-columns: auto auto auto auto;    
+    padding: 25px;
+    justify-content: space-evenly;
+}
+.grid-container4>div
+{
+    background-color: azure;    
+    margin:15px;
+    padding:15px;
+}
+.grid-container5
+{
+    background-color: orange;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;    
+    padding: 25px;
+    justify-content: space-evenly;
+}
+.grid-container5>div
+{
+    background-color: azure;    
+    margin:15px;
+    padding:15px;
+}
+.left
+{
+    text-align:left;
+}
+.right
+{
+    text-align:right;
+}
+.justify
+{
+    text-align:justify;
+}
+.center
+{
+    text-align:center;
+}
+
+
+.overline
+{
+    text-decoration: overline;
+}
+.line-through
+{
+    text-decoration: line-through;
+}
+.underline
+{
+    text-decoration: underline;
+}
+.overline-underline
+{
+    text-decoration: overline underline;
+}
+.uppercase
+{
+    text-transform: uppercase;
+}
+.lowercase
+{
+    text-transform: lowercase;
+}
+.capitalize
+{
+    text-transform: capitalize;
+}
+
+.Serif
+{
+    font-family: Serif;
+}
+.San-Serif
+{
+    font-family: San-Serif;
+}
+.Monospace
+{
+    font-family: Monospace;
+}
+.Cursive
+{
+    font-family: 'lucida handwriting', cursive;
+}
+.Fantasy
+{
+    font-family: Fantasy;
+}

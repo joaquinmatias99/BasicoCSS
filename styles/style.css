@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.nav-bar {
+    margin: 0;
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(50, 50, 50);
+}
+
+.nav-bar a {
+    margin: 0;
+    float: left;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(193, 116, 0);
+}
+
+.nav-bar a:hover {
+    background-color: rgb(193, 116, 0);
+}
+
+i {
+    padding: 0 5px;
+}
+
+
+
+
+.introduccion {
+    text-align: center;
+    margin: 0 15%;
+}
+
