@@ -39,3 +39,10 @@ i {
     margin: 0 15%;
 }
 
+.enlaces {
+    color: red;
+}
+
+.enlaces:hover {
+    background-color: orange;
+}
